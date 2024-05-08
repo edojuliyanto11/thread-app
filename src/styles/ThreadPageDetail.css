@@ -1,0 +1,135 @@
+.thread-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.thread-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.thread-detail-body {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.thread-detail-category-tag {
+    background-color: #e0f7fa;
+    color: #00796b; 
+    border-radius: 5px;
+    padding: 5px 10px; 
+    font-size: 0.9em; 
+    justify-content: right;
+    float: right;
+}
+
+.thread-detail-createdAt {
+    font-size: 14px; 
+    color: black; 
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .createdAt-icon {
+    font-size: 16px;
+    color: #888;
+  }
+  
+
+.thread-detail-owner {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.thread-detail-owner-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.thread-comments {
+    
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.comment-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.comment-owner {
+    display: flex;
+    align-items: center;
+}
+
+.comment-owner-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.comment-content {
+    margin-top: 8px;
+}
+
+.comment-createdAt {
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+.comment-textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  
+  .comment-submit-button {
+    padding: 10px 0px;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+    float: right;
+    width: 80px;
+  }
+  
+  .comment-submit-button:hover {
+    background-color: #45a049;
+  }
+
+  .loading-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .loading-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #007bff;
+    transition: width 0.5s ease-in-out;
+  }
+
+  
