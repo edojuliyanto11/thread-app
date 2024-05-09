@@ -10,7 +10,7 @@
     "lint": "npx eslint ./src --ext .jsx,.js",
     "test": "vitest --no-watch",
     "e2e": "cypress run",
-    "ci:test": "vitest --no-watch && start-server-and-test dev http-get://0.0.0.0:5173 e2e"
+    "ci:test": "vitest --no-watch && start-server-and-test dev http://localhost:5173/ e2e"
   },
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.23.4",
