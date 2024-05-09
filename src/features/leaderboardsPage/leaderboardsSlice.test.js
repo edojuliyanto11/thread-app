@@ -9,7 +9,7 @@
 import { describe, it, expect, vi } from "vitest";
 import axios from "axios";
 import { fetchLeaderboards } from "../../features/leaderboardsPage/leaderboardsSlice";
-import thunk from "redux-thunk";
+import { thunk } from "redux-thunk";
 import configureMockStore from "redux-mock-store";
 
 const middlewares = [thunk];
